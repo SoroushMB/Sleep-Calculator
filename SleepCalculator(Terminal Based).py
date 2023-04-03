@@ -45,7 +45,7 @@ def present_time():
         sum_of_all += 90
         sleep_hour = sum_of_all//60
         sleep_minute = sum_of_all%60
-        print(f"Best moments to sleep: {sleep_hour}:{sleep_minute}")
+        print(f"Best moments to wake up: {sleep_hour}:{sleep_minute}")
         print(30*"__")
     print("It's the best if you wake up at the last one!")
 def user_time(time):
@@ -66,7 +66,7 @@ def user_time(time):
         sum_of_all += 90
         sleep_hour = sum_of_all//60
         sleep_minute = sum_of_all%60
-        print(f"Best moments to sleep: {sleep_hour}:{sleep_minute}")
+        print(f"Best moments to wake up: {sleep_hour}:{sleep_minute}")
         print(30*"__")
     print("It's the best if you wake up at the last one!")
 # -------Execution-------
