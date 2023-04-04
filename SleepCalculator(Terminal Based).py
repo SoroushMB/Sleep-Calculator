@@ -44,6 +44,8 @@ def present_time():
     for i in range(6):
         sum_of_all += 90
         sleep_hour = sum_of_all//60
+        if sleep_hour > 24:
+            sleep_hour -= 24
         sleep_minute = sum_of_all%60
         print(f"Best moments to wake up: {sleep_hour}:{sleep_minute}")
         print(30*"__")
@@ -65,6 +67,8 @@ def user_time(time):
     for i in range(6):
         sum_of_all += 90
         sleep_hour = sum_of_all//60
+        if sleep_hour > 24:
+            sleep_hour -= 24
         sleep_minute = sum_of_all%60
         print(f"Best moments to wake up: {sleep_hour}:{sleep_minute}")
         print(30*"__")
