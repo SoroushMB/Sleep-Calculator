@@ -1,5 +1,5 @@
 # Terminal-Based Sleep Calculator
-# Designed, built and crafted by SoroushMBabaei!
+# Designed, built and crafted by SoroushMBabaei❤️!
 # Enjoy!
 # -------Libraries-------
 from time import strftime,sleep
